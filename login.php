@@ -7,7 +7,7 @@ $password = $_POST['password'];
 
 if ($user->exists($username, $password)) {
     $_SESSION['login'] = true;
-    header("mem.php");
+    header("profil.php");
 } else {
     header("index.php?message=".urlencode('incorrect username or password'));
     exit();
