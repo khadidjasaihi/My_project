@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+.container {
+    background: linear-gradient(234deg, #2766e1, #fe7f2d);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: #08387f;
+}
+
+.wrapper {
+    width: 200%;
+    max-width: 500px;
+    padding: 50px 50px;
+    display: flex;
+    background: linear-gradient(101deg,white, white);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 575px;
+    /* border: 3px solid rgb(0 151 255 / 13%); */
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0px #08387f;
+}
+
+h1 {
+    color: #0950bb;
+    padding-right: 50%;
+}
+
+h2 {
+    COLOR: #fe7f2d;
+    margin-right: 226px;
+    MARGIN-TOP: 15px;
+}
+.cours {
+    COLOR: #cd6420;
+    margin-right: 226px;
+    MARGIN-TOP: 15px;
+}
+input#ident {
+    height: 28px;
+}
+
+.comment {
+    color: cornflowerblue;
+    margin-right: 126px;
+    margin-top: 15px;
+    font-size: revert;
+}
+.validation {
+    color: cornflowerblue;
+    margin-right: 126px;
+    margin-top: 5px;
+    font-size: 17px;
+    FONT-WEIGHT: 700;
+}
+input#noplace {
+    MARGIN-TOP: 21px;
+}
+h3 {
+    margin-top: 4px;
+}
+textarea#reserve {
+    margin-top: 15px;
+    margin-right: -120px;
+}
+textarea#res {
+    margin-top: 15px;
+    margin-right: -120px;
+}
+button {
+    background-color: #0950bb;
+    padding: 8px 30px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0 0 3px 2px #fff;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 28px;
+    margin-left: 74px;
+}
